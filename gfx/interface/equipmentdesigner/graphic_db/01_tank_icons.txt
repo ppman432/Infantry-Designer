@@ -1,0 +1,340 @@
+default = {
+	infantry_equipment_0 = {
+
+
+		pool = {
+			weight = 1
+			models = {
+				"EQS_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"PONY_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"TBK_AF_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"ZEBRA_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"HIP_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"GRI_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"wingbardian_infantry_entity"
+			}
+		}
+		pool = {
+			weight = 1
+			models = {
+				"deer_gfx_infantry_entity"
+			}
+		}
+	}
+
+}
+
+CHN = {
+	infantry_equipment_0 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	infantry_equipment_1 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_infantry_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	infantry_equipment_2 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_improved_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_infantry_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	infantry_equipment_3 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_improved_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_infantry_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	infantry_equipment_x = {
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_b_medium
+			}
+		}
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_improved_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_infantry_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	infantry_equipment_x_2 = {
+		pool = {
+			weight = 6
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_e_medium
+			}
+		}
+		pool = {
+			weight = 5
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_b_medium
+			}
+		}
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_CHN_advanced_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_improved_infantry_weapons_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_infantry_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_infantry_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	magical_equipment_1 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_magical_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	magical_equipment_2 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_magical_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_magical_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	magical_equipment_3 = {
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_magical_weapons2_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_magical_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_magical_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+	magical_equipment_4 = {
+		pool = {
+			weight = 4
+			icons = { 
+				GFX_CHN_magical_weapons3_medium
+			}
+		}
+		pool = {
+			weight = 3
+			icons = { 
+				GFX_CHN_magical_weapons2_medium
+			}
+		}
+		pool = {
+			weight = 2
+			icons = { 
+				GFX_CHN_magical_weapons1_medium
+			}
+		}
+		pool = {
+			weight = 1
+			icons = { 
+				GFX_CHN_magical_weapons_medium
+			}
+		}
+
+		pool = {
+			weight = 4
+			models = {
+				"CHN_bug_entity"
+			}
+		}
+	}
+} 
