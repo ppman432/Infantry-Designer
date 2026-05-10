@@ -1,0 +1,292 @@
+spriteTypes = {
+ # Main Armament
+    spriteType = {
+    	name = "GFX_EMI_marepads"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/marepad.dds"
+    }
+    spriteType = {
+    	name = "GFX_EMI_infantry_weapon_type"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/nomagicprimarylogo.dds"
+    }
+    spriteType = {
+    	name = "GFX_EMI_magic_weapon_type"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/magicprimarylogo.dds"
+    }
+	spriteType = {
+		name = "GFX_EMI_prewar_weapon_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_weapon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_regular_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/regular_weapon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/improved_weapon.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/lmg.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_prewar_weapon_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_weapon_1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/stg.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/assrif.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_improved_weapon_magic"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/mag2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon_magic"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/mag3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon_magic_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/mag4.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_advanced_weapon_magic_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/mag5.dds"
+	}
+	
+ # Camo
+ 
+	spriteType = {
+		name = "GFX_EMI_uniform_0"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/camo1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_camo_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/camo2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_camo_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/camo3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_camo_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/camo4.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_camo_4"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/camo5.dds"
+	}
+ #Pistols
+    spriteType = {
+    	name = "GFX_EMI_infantry_pistol_type"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/pistologo.dds"
+    }
+	spriteType = {
+		name = "GFX_EMI_pistol_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/pistol1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_pistol_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/pistol2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_pistol_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/pistol3.dds"
+	}
+ 
+ 
+ 
+ # Presonal Protective
+ 	spriteType = {
+		name = "GFX_EMI_minimum_protective"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/helm1.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_uniform_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/helm2.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_uniform_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/helm3.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_uniform_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/helm4.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_uniform_4"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/helm5.dds"
+	}
+ # Fire Support Defense
+
+	spriteType = {
+		name = "GFX_EMI_infantry_fire_support_defence_type"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_fire_support_defence_type.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_prewar_defence_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_defence_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_regular_defence_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/regular_defence_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_defence_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/improved_defence_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_advanced_defence_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/advanced_defence_support.dds"
+	}
+
+ # Fire Support Attack
+	spriteType = {
+		name = "GFX_EMI_infantry_fire_support_attack_type"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_fire_support_attack_type.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_prewar_attack_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_attack_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_regular_attack_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/regular_attack_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_attack_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/improved_attack_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_advanced_attack_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/advanced_attack_support.dds"
+	}
+
+ # Anti-Tank Armament
+	spriteType = {
+		name = "GFX_EMI_prewar_anti_tank"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/prewar_anti_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_regular_anti_tank"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/regular_anti_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_improved_anti_tank"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/improved_anti_tank.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_advanced_anti_tank"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/advanced_anti_tank.dds"
+	}
+ # Special Modules
+
+    spriteType = {
+    	name = "GFX_EMI_infantry_special_modules"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_special_modules.dds"
+    }
+
+	spriteType = {
+    	name = "GFX_EMI_infantry_special_modules_extend"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_special_modules_extend.dds"
+    }
+	
+	spriteType = {
+    	name = "GFX_EMI_infantry_anti_tank_type"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/additional_grenades.dds"
+    }
+	spriteType = {
+    	name = "GFX_EMI_shotgun_category"
+    	textureFile = "gfx/interface/equipmentdesigner/infantry/modules/shotgun_logo.dds"
+    }
+	
+ 	spriteType = {
+		name = "GFX_EMI_bandaging_package"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/bandaging_package.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_sapper_shovels"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/sapper_shovels.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_additional_grenades"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/additional_grenades.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_additional_ammo"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/additional_ammo.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_sniper_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/sniper_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_binoculars"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/binoculars.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_night_vision_device"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/night_vision_device.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_gun_grease"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/gun_grease.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_molotov_cocktail"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/molotov_cocktail.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_shotgun_1"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/shotgun1.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_shotgun_2"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/shotgun2.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_EMI_shotgun_3"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/shotgun3.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_flame_support"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/flame_support.dds"
+	}
+
+	spriteType = {
+		name = "GFX_EMI_tripflare"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/flare.dds"
+	}
+	spriteType = {
+		name = "GFX_EMI_infantry_anti_air"
+		textureFile = "gfx/interface/equipmentdesigner/infantry/modules/infantry_aa.dds"
+	}
+}

@@ -1,0 +1,431 @@
+guiTypes = {
+	containerWindowType = {
+		name = "equipment_designer_magical_equipment"
+		position = { x=0 y=0 }
+		size = { width=508 height=248 }
+
+		iconType = {
+			name = "equipment_image_overlay"
+			spriteType = "GFX_TC_infantry_equipment"
+			position = { x=0 y=0 }
+		}
+
+		containerWindowType = {
+			name = "module_slots"
+			position = { x=0 y=0 }
+			size = { width=100% height=100% }
+
+			################# MODULE SLOT: Main Armament #################
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_0"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_0"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_0@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_small_arms_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_1"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_1@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_small_arms_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Auxiliary Armament #################
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_2"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_2@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_auxiliary_armament_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Anti-Tank Armament #################
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_5"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_5"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_5@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_anti_tank_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+
+			################# MODULE SLOT: Personal Protective #################
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_3"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_3@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_personal_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			containerWindowType = {
+				name = "fixed_infantry_type_slot_6"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_6"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+				}
+
+				containerWindowType = {
+					name = "fixed_infantry_type_slot_6@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_personal_slot"
+						position = { x=0 y=0 }
+					}
+				}
+
+			}
+			
+			################# MODULE SLOT: Special #################
+			containerWindowType = {
+				name = "special_type_slot_1"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+
+				containerWindowType = {
+					name = "special_type_slot_1@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_2"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_2@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+				
+			}
+			containerWindowType = {
+				name = "special_type_slot_3"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_3@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_4"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_4@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_5"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_5@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_6"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_6@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_7"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_7@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_8"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_8@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_9"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_9@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_10"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_10@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_11"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_11@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_12"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_12@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_13"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_13@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_14"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_14@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_15"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_15@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+			containerWindowType = {
+				name = "special_type_slot_16"
+				position = { x=0 y=0 }
+				size = { width=100% height=100% }
+				containerWindowType = {
+					name = "special_type_slot_16@highlight"
+					position = { x=0 y=0 }
+					size = { width=100% height=100% }
+
+					iconType = {
+						name = "blueprint"
+						spriteType = "GFX_TM_special_slot"
+						position = { x=0 y=0 }
+					}
+				}
+			}
+		}
+	}
+}
