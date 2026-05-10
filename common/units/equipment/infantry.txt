@@ -1,0 +1,509 @@
+# All infantry equipment
+
+equipments = {
+	infantry_equipment = {
+		year = 1936
+		is_archetype = yes
+
+		picture = archetype_infantry_equipment
+		is_buildable = no
+		type = { armor infantry } 
+		interface_category = interface_category_land
+		group_by = archetype
+
+		module_count_limit = {
+			module = bandaging_package
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = sapper_shovels
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = additional_grenades
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = additional_ammo
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = sniper_support
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = night_vision_device
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = binoculars
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = gun_grease
+			count < 2
+		}	
+
+		module_count_limit = {
+			module = molotov_cocktail
+			count < 2
+		}	
+		module_count_limit = {
+			module = flame_support
+			count < 2
+		}	
+		module_count_limit = {
+			module = improved_weapon
+			count < 2
+		}	
+		module_count_limit = {
+			module = advanced_weapon
+			count < 2
+		}	
+		module_count_limit = {
+			module = advanced_weapon_1
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_weapon_2
+			count < 2
+		}
+		module_count_limit = {
+			module = prewar_weapon_2
+			count < 2
+		}
+		module_count_limit = {
+			module = prewar_weapon_1
+			count < 2
+		}
+		module_count_limit = {
+			module = advanced_anti_tank
+			count < 2
+		}
+		module_count_limit = {
+			module = improved_anti_tank
+			count < 2
+		}
+		
+		module_count_limit = {
+			category = infantry_fire_support_defence_type
+			count < 2
+		}
+		module_count_limit = {
+			category = shotgun_category
+			count < 2
+		}
+		module_count_limit = {
+			category = infantry_anti_tank_type
+			count < 3
+		}
+
+		module_slots = {
+			
+			special_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_4 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_5 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+			
+			
+			special_type_slot_6 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_7 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_8 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_9 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_10 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_11 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_12 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_13 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_14 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_15 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+
+			special_type_slot_16 = {
+				required = no
+				allowed_module_categories = {
+					infantry_special_modules
+					infantry_special_modules_extend
+					infantry_anti_tank_type
+					infantry_small_weapon_type
+					shotgun_category
+				}
+			}
+			
+			fixed_infantry_type_slot_0 = { #Primary Weapon
+				required = yes
+				allowed_module_categories = {
+					infantry_weapon_type
+					
+				}
+			}
+			
+			fixed_infantry_type_slot_1 = { #Seconday Weapon
+				required = no
+				allowed_module_categories = {
+					infantry_weapon_type
+					infantry_pistol_type
+				}
+			}
+			
+			fixed_infantry_type_slot_2 = { #Tertiary weapon
+				required = no
+				allowed_module_categories = {
+					infantry_fire_support_defence_type
+				}
+			}
+			
+			fixed_infantry_type_slot_3 = { #Uniform
+				required = yes
+				allowed_module_categories = {
+					infantry_uniform_type
+				}
+			}
+			
+			fixed_infantry_type_slot_4 = { #Mortars
+				required = no
+				allowed_module_categories = {
+					infantry_fire_support_attack_type
+				}
+			}
+			
+			fixed_infantry_type_slot_5 = { #Anti-Tank
+				required = no
+				allowed_module_categories = {
+					infantry_anti_tank_type
+				}
+			}
+			
+			fixed_infantry_type_slot_6 = { #Body Armor
+				required = no
+				allowed_module_categories = {
+					infantry_personal_protective
+				}
+			}
+			
+		}
+
+		active = yes
+		priority = 2000
+		
+		#Misc Abilities
+		 lend_lease_cost = 1
+		 maximum_speed = 5
+	}
+
+	melee_equipment_0 = {
+		year = 800
+		archetype = infantry_equipment
+		priority = 12
+		visual_level = 0
+		is_convertable = no
+		## Defensitve Abilities
+		defense = 6
+		breakthrough = 1
+
+		#Offensive Abilities
+		soft_attack = 2
+		hard_attack = 0.001
+		ap_attack = 0.001
+
+		reliability = 0.95
+		build_cost_ic = 0.32
+		resources = {
+			steel = 1
+		}
+	}
+
+	melee_equipment_1 = {
+		year = 950 # was 800, moved for license reasons
+		archetype = infantry_equipment
+		parent = melee_equipment_0
+		priority = 11
+		visual_level = 0
+		is_convertable = no
+		#Defensive Abilities
+		defense = 12
+		breakthrough = 1.5
+		#Offensive Abilities
+		soft_attack = 2.5
+		hard_attack = 0.2
+		ap_attack = 0.001
+
+
+		build_cost_ic = 0.37
+		resources = {
+			steel = 1
+		}
+	}
+
+	infantry_equipment_0 = {
+		year = 1936
+		archetype = infantry_equipment
+
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = prewar_weapon_1
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+		active = yes
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_equipment_1 = {
+		year = 1918
+		parent = infantry_equipment_0
+		archetype = infantry_equipment
+
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = prewar_weapon_2
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_equipment_2 = {
+		year = 1918
+
+		archetype = infantry_equipment
+		parent = infantry_equipment_1
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = improved_weapon
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_equipment_3 = {
+		year = 1918
+
+		archetype = infantry_equipment
+		parent = infantry_equipment_2
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = advanced_weapon
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_equipment_x = {
+		year = 1918
+
+		archetype = infantry_equipment
+		parent = infantry_equipment_3
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = advanced_weapon_1
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+
+	infantry_equipment_x_2 = {
+		year = 1918
+
+		archetype = infantry_equipment
+		parent = infantry_equipment_x
+		module_slots = inherit
+
+		default_modules = {
+			fixed_infantry_type_slot_0 = advanced_weapon_2
+			fixed_infantry_type_slot_3 = uniform_0
+			fixed_infantry_type_slot_6 = minimum_protective
+			special_type_slot_1 = bandaging_package
+			special_type_slot_2 = sapper_shovels
+		}
+
+		active = no
+		priority = 05
+		visual_level = 0
+	}
+}

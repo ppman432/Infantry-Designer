@@ -1,0 +1,707 @@
+## trains.txt
+## OVERWRITE: Adds 2 new trains
+
+equipments = {
+	#archetype
+	train_equipment = {
+		year = 981
+
+		is_archetype = yes
+		is_buildable = no
+		active = no
+		type = { armor train } 
+		picture = archetype_train
+		group_by = archetype
+		sprite = train
+
+		# Min 2 not anti-air vagon
+		module_count_limit = {
+			category = aa_vagon_type
+			count < 4
+		}	
+
+
+		module_slots = {
+		
+			vagon1_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			
+			vagon6_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon7_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon8_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon9_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon10_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon11_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon12_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			fixed_train_type_slot_0 = {
+				required = yes
+				allowed_module_categories = {
+					locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_2 = {
+				required = no
+				allowed_module_categories = {
+					locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_3 = {
+				required = no
+				allowed_module_categories = {
+					locomotive_type
+				}
+			}
+			
+			
+		}
+
+		interface_category = interface_category_land
+		build_cost_ic = 5
+		armor_value = 0 # HP = BASE_TRAIN_HP + armor_value
+	}
+
+	train_equipment_1 = {
+		year = 981
+
+		archetype = train_equipment
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			fixed_train_type_slot_0 = great_war_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = standart_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	}
+
+	train_equipment_2 = {
+
+		archetype = train_equipment
+		parent = train_equipment_1
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			fixed_train_type_slot_0 = wartime_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = standart_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	}
+
+	train_equipment_3 = {
+
+		archetype = train_equipment
+		priority = 10
+		module_slots = inherit
+
+		default_modules = {
+			fixed_train_type_slot_0 = wartime_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	}
+	# civ train 2
+	civ_train_equipment_2 = {
+
+		archetype = train_equipment
+		parent = train_equipment_1
+		priority = 10
+		module_slots = inherit
+	
+		default_modules = {
+			fixed_train_type_slot_0 = civilian_locomotive
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	}
+	civ_train_equipment_3 = {
+
+		archetype = train_equipment
+		parent = civ_train_equipment_2
+		priority = 10
+		module_slots = inherit
+	
+		default_modules = {
+			fixed_train_type_slot_0 = civilian_locomotive_2
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+
+	}
+	civ_train_equipment_4 = {
+
+		archetype = train_equipment
+		parent = civ_train_equipment_3
+		priority = 10
+		module_slots = inherit
+	
+		default_modules = {
+			fixed_train_type_slot_0 = civilian_locomotive_3
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+
+	}
+		
+	
+	hvy_train_equipment_1 = {
+		year = 1016
+		
+		archetype = train_equipment
+		parent = train_equipment_1
+		priority = 10
+		module_slots = {
+		
+			vagon1_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon3_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon4_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon5_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon6_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon7_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon8_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon9_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon10_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon11_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon12_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon13_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon14_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon15_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon16_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			fixed_train_type_slot_0 = {
+				required = yes
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+		}
+		
+		default_modules = {
+			fixed_train_type_slot_0 = heavy_locomotive_2
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	}
+	hvy_train_equipment_2 = {
+		archetype = train_equipment
+		parent = hvy_train_equipment_1
+		priority = 10
+		module_slots = {
+		
+			vagon1_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon3_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon4_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon5_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon6_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon7_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon8_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon9_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon10_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon11_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon12_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon13_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon14_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon15_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon16_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			fixed_train_type_slot_0 = {
+				required = yes
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+		}
+	
+		default_modules = {
+			fixed_train_type_slot_0 = heavy_locomotive_2
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+
+	}
+	hvy_train_equipment_3 = {
+		year = 1020
+		archetype = train_equipment
+		parent = hvy_train_equipment_2
+		priority = 10
+		module_slots = {
+		
+			vagon1_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon2_slot = {
+				required = yes
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon3_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon4_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon5_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon6_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon7_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			vagon8_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon9_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon10_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon11_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon12_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+
+			vagon13_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon14_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon15_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			vagon16_slot = {
+				required = no
+				allowed_module_categories = {
+					vagon_type
+					aa_vagon_type
+				}
+			}
+			
+			fixed_train_type_slot_0 = {
+				required = yes
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+			fixed_train_type_slot_1 = {
+				required = no
+				allowed_module_categories = {
+					heavy_locomotive_type
+				}
+			}
+			
+		}
+		
+		default_modules = {
+			fixed_train_type_slot_0 = heavy_locomotive_3
+			vagon1_slot = standart_vagon
+			vagon2_slot = anti_air1_vagon
+			vagon6_slot = standart_vagon
+			vagon7_slot = standart_vagon
+			vagon8_slot = standart_vagon
+		}
+	
+	}
+	train_equipment_4 = {
+		year = 1019
+		archetype = train_equipment
+		parent = train_equipment_3
+		type = {
+			train
+		}
+		armor_value = 300 # HP = BASE_TRAIN_HP + armor_value
+		air_attack = 45
+		priority = 30
+		build_cost_ic = 140
+		resources = {
+			steel = 2
+		}
+	}
+
+}
