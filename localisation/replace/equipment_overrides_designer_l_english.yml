@@ -1,0 +1,13 @@
+﻿l_english:
+ infantry_equipment_0:0 "Breech-Loaded Rifles"
+ infantry_equipment_0_short:0 "Breech-Loaded Rifles"
+ infantry_equipment_0_desc:0 "Muskets of old have been largely replaced by breech-loaded rifled firearms, which use smokeless powder and can be reloaded quickly and easily. In addition, soldiers use sidearms such as pistols and bayonets as well as state-issued helmets and uniforms."
+ infantry_equipment_1:0 "Bolt-Action Rifles"
+ infantry_equipment_1_short:0 "Bolt-Action Rifles"
+ infantry_equipment_1_desc:0 "Bolt-action rifles are replacing older designs thanks to their higher rate of fire compared to previous breech-loaders. Furthermore, standardised grenades are seeing widespread use, vastly increasing the firepower of the individual soldier."
+ infantry_equipment_2:0 "Submachine Guns"
+ infantry_equipment_2_short:0 "Submachine Guns"
+ infantry_equipment_2_desc:0 "Machine guns proved to be powerful weapons but lack mobility. However, submachine guns allow soldiers to maintain high rates of fire even on the move. Newer designs make these firearms particularly effective in close-quarters combat. Meanwhile, new anti-tank weapons help overcome armoured vehicles such as half-tracks and tanks."
+ infantry_equipment_3:0 "Battle Rifles"
+ infantry_equipment_3_short:0 "Battle Rifles"
+ infantry_equipment_3_desc:0 "Battle rifles are specially designed to improve soldiers' firepower by utilising either semi-automatic or fully automatic fire modes. As such, battle rifles combine the stopping power and range of previous service rifles with the close-quarters efficacy of submachine guns. Meanwhile, personal anti-tank weapons continue to evolve, allowing the infantry to engage enemy tanks effectively."
